@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Fncdemo/precache-manifest.2f71cf172c6ea53326352157812a728a.js"
+  "/flower-shop-master/precache-manifest.e2d82f0be44d6e6755b9673f94f5f06d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Fncdemo/index.html", {
+workbox.routing.registerNavigationRoute("/flower-shop-master/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
